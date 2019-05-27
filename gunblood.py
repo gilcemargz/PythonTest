@@ -11,6 +11,7 @@ print(posicao)
 
 
 
+
 while True:
 
     dk.moveTo(267, 510)
