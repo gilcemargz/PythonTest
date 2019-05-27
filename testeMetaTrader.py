@@ -16,13 +16,13 @@ print(MT5TerminalInfo())
 print(MT5Version())
 
 # request 1000 ticks from EURAUD
-euraud_ticks = MT5CopyTicksFrom("EURAUD", datetime(2019, 4, 1, 0), 1000, MT5_COPY_TICKS_ALL)
+euraud_ticks = MT5CopyTicksFrom("EURUSD", datetime(2019, 4, 1, 0), 1000, MT5_COPY_TICKS_ALL)
 # request ticks from AUDUSD within 2019.04.01 13:00 - 2019.04.02 13:00
 audusd_ticks = MT5CopyTicksRange("AUDUSD", datetime(2019, 4, 1, 13), datetime(2019, 4, 2, 13), MT5_COPY_TICKS_ALL)
 
 # get bars from different symbols in a number of ways
 eurusd_rates = MT5CopyRatesFrom("EURUSD", MT5_TIMEFRAME_M1, datetime(2019, 4, 5, 15), 1000)
-eurrub_rates = MT5CopyRatesFromPos("EURRUB", MT5_TIMEFRAME_M1, 0, 1000)
+eurrub_rates = MT5CopyRatesFromPos("EURRUBv", MT5_TIMEFRAME_M1, 0, 1000)
 eurjpy_rates = MT5CopyRatesRange("EURJPY", MT5_TIMEFRAME_M1, datetime(2019, 4, 1, 13), datetime(2019, 4, 2, 13))
 # shut down connection to MetaTrader 5
 MT5Shutdown()
