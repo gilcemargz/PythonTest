@@ -1,7 +1,51 @@
 import numpy as np
 from sklearn.linear_model import LinearRegression
-#import statsmodels.api as sm
-import scipy.stats as scp
+import statsmodels.api as sm
+import scipy as scp
+import matplotlib.pyplot as plt
+
+#https://www.freecodecamp.org/news/data-science-with-python-8-ways-to-do-linear-regression-and-measure-their-speed-b5577d75f8b/
+
+#Teste com statsmodels.ols
+X = [5,12,25,35,45,55]
+y = [5,20,14,32,22,38]
+X = sm.add_constant(X)
+results = sm.OLS(y, X).fit()
+
+# Inspect the results
+print(results.summary())
+
+#Teste com statsmodels.ols
+
+
+exit()
+#Teste com numpy.linalg.lstsq
+x = np.array([5,12,25,35,45,55])
+y = np.array([5,20,14,32,22,38])
+A = np.vstack([x, np.ones(len(x))]).T
+
+m, c = np.linalg.lstsq(A,y)[0]
+result = np.linalg.lstsq(A,y)
+print(m, c)
+print(result)
+plt.plot(x, y, 'o', label='Original data', markersize=10)
+plt.plot(x, m*x + c, 'r', label='Fitted line')
+plt.legend()
+plt.show()
+#Teste com numpy.linalg.lstsq
+
+exit()
+
+#Teste com scipy.optimize.curve_fit
+def func(x,a,b,c):
+    return a * np.exp(-b * x) + c
+
+x = np.array([5,12,25,35,45,55])
+y = np.array([5,20,14,32,22,38])
+
+result = scp.optimize.curve_fit(func,x,y )
+print(result)
+#Teste com scipy.optimize.curve_fit
 
 
 #Teste com scipy.stats.linregress
@@ -10,6 +54,7 @@ y = np.array([5,20,14,32,22,38])
 
 result = scp.linregress(y,x)
 print(result)
+
 #Teste com scipy.stats.linregress
 
 
