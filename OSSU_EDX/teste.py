@@ -1,4 +1,4 @@
-raiz = 308024
+raiz = 16
 
 x = raiz / 2
 
