@@ -91,7 +91,6 @@ def getAvailableLetters(lettersGuessed):
 
 def hangman(secretWord):
     guesses = 8
-    trava = 0
     letters = []
 
     print('Welcome to the game, Hangman!')
@@ -122,8 +121,6 @@ def hangman(secretWord):
         elif isWordGuessed(secretWord, letters):
             print('Congratulations, you won!')
             break
-
-        
 
 
 if __name__ == '__main__':
