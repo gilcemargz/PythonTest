@@ -4,6 +4,94 @@
 		"selected_items":
 		[
 			[
+				"a",
+				"append\tfunction"
+			],
+			[
+				"lett",
+				"letters\tstatement"
+			],
+			[
+				"secre",
+				"secretWord\tstatement"
+			],
+			[
+				"if",
+				"ifmain\tif __name__ == '__main__'"
+			],
+			[
+				"let",
+				"lettersGuessed\tparam"
+			],
+			[
+				"scere",
+				"secretWord\tparam"
+			],
+			[
+				"re",
+				"return\tkeyword"
+			],
+			[
+				"dic",
+				"dict\tclass"
+			],
+			[
+				"lis",
+				"listA\tstatement"
+			],
+			[
+				"li",
+				"listB\tstatement"
+			],
+			[
+				"par",
+				"parcela_teste\tstatement"
+			],
+			[
+				"pr",
+				"print\tfunction"
+			],
+			[
+				"p",
+				"parcela\tstatement"
+			],
+			[
+				"ba",
+				"balance\tstatement"
+			],
+			[
+				"pro",
+				"proximo\tstatement"
+			],
+			[
+				"ma",
+				"math\tmodule"
+			],
+			[
+				"gc",
+				"gcdIter2\tfunction"
+			],
+			[
+				"it",
+				"iterPower\tfunction"
+			],
+			[
+				"pos",
+				"posAnt\tstatement"
+			],
+			[
+				"str",
+				"strMax\tstatement"
+			],
+			[
+				"ps",
+				"posy\tstatement"
+			],
+			[
+				"po",
+				"posx\tstatement"
+			],
+			[
 				"np",
 				"np\tmodule"
 			],
@@ -20,20 +108,20 @@
 	"buffers":
 	[
 		{
-			"file": "OSSU_EDX/teste.py",
+			"file": "OSSU_EDX/ps3_hangman.py",
 			"settings":
 			{
-				"buffer_size": 307,
+				"buffer_size": 3881,
 				"encoding": "UTF-8",
-				"line_ending": "Unix",
-				"name": "print('oi')"
+				"line_ending": "Unix"
 			}
 		},
 		{
-			"file": "projeto_teste.sublime-project",
+			"file": "OSSU_EDX/polygon.py",
 			"settings":
 			{
-				"buffer_size": 463,
+				"buffer_size": 31,
+				"encoding": "UTF-8",
 				"line_ending": "Unix"
 			}
 		}
@@ -70,7 +158,11 @@
 		"selected_items":
 		[
 			[
-				"virtua",
+				"vi",
+				"Virtualenv: Activate"
+			],
+			[
+				"activ",
 				"Virtualenv: Activate"
 			],
 			[
@@ -79,7 +171,15 @@
 			],
 			[
 				"Package Control: ",
+				"Package Control: Remove Package"
+			],
+			[
+				"install",
 				"Package Control: Install Package"
+			],
+			[
+				"virtua",
+				"Virtualenv: Activate"
 			],
 			[
 				"virtualenv",
@@ -91,10 +191,6 @@
 			],
 			[
 				"insta",
-				"Package Control: Install Package"
-			],
-			[
-				"install",
 				"Package Control: Install Package"
 			]
 		],
@@ -123,6 +219,8 @@
 	],
 	"file_history":
 	[
+		"/home/gilcemar/projetos/PythonTest/OSSU_EDX/teste.py",
+		"/home/gilcemar/projetos/PythonTest/OSSU_EDX/polygon.py",
 		"/home/gilcemar/projetos/PythonTest/projeto_teste.sublime-project",
 		"/home/gilcemar/.config/sublime-text-3/Packages/Anaconda/Anaconda.sublime-settings",
 		"/home/gilcemar/projetos/PythonTest/.gitignore",
@@ -133,7 +231,7 @@
 	],
 	"find":
 	{
-		"height": 26.0
+		"height": 39.0
 	},
 	"find_in_files":
 	{
@@ -169,29 +267,28 @@
 			[
 				{
 					"buffer": 0,
-					"file": "OSSU_EDX/teste.py",
+					"file": "OSSU_EDX/ps3_hangman.py",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 307,
+						"buffer_size": 3881,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								307,
-								307
+								2428,
+								2428
 							]
 						],
 						"settings":
 						{
-							"auto_name": "print('oi')",
 							"git_gutter_is_enabled": true,
 							"syntax": "Packages/Python/Python.sublime-syntax"
 						},
 						"translation.x": 0.0,
-						"translation.y": 0.0,
+						"translation.y": 1373.0,
 						"zoom_level": 1.0
 					},
 					"stack_index": 0,
@@ -199,26 +296,25 @@
 				},
 				{
 					"buffer": 1,
-					"file": "projeto_teste.sublime-project",
+					"file": "OSSU_EDX/polygon.py",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 463,
+						"buffer_size": 31,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								392,
-								392
+								30,
+								30
 							]
 						],
 						"settings":
 						{
 							"git_gutter_is_enabled": true,
-							"syntax": "Packages/JavaScript/JSON.sublime-syntax",
-							"translate_tabs_to_spaces": false
+							"syntax": "Packages/Python/Python.sublime-syntax"
 						},
 						"translation.x": 0.0,
 						"translation.y": 0.0,
@@ -232,7 +328,7 @@
 	],
 	"incremental_find":
 	{
-		"height": 26.0
+		"height": 24.0
 	},
 	"input":
 	{
@@ -267,7 +363,7 @@
 	},
 	"output.exec":
 	{
-		"height": 219.0
+		"height": 338.0
 	},
 	"output.find_results":
 	{
@@ -281,7 +377,7 @@
 	"project": "projeto_teste.sublime-project",
 	"replace":
 	{
-		"height": 48.0
+		"height": 44.0
 	},
 	"save_all_on_build": true,
 	"select_file":
@@ -295,12 +391,16 @@
 	},
 	"select_project":
 	{
-		"height": 0.0,
+		"height": 500.0,
 		"last_filter": "",
 		"selected_items":
 		[
+			[
+				"",
+				"~/projetos/mercos_flask/mercos_flask.sublime-project"
+			]
 		],
-		"width": 0.0
+		"width": 380.0
 	},
 	"select_symbol":
 	{
@@ -319,7 +419,7 @@
 	"show_open_files": false,
 	"show_tabs": true,
 	"side_bar_visible": true,
-	"side_bar_width": 177.0,
+	"side_bar_width": 290.0,
 	"status_bar_visible": true,
 	"template_settings":
 	{

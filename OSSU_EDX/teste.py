@@ -1,20 +1,14 @@
-raiz = 16
-
-x = raiz / 2
-
-count = 0
-ant = None
-while True:
-    print(x)
-    count += 1
-    ant = x
-    if x * x == raiz:
-        print(f'A raiz de {raiz} é {x}')
-        break
-    else:
-        x = ((x + (raiz / x)) / 2)
-        if ant == x:
-            break
+import math
 
 
-print(f'Voltas {count}')
+def polysum(n, s):
+    """
+    n: number of sides
+    s: length
+
+    return: area of the polygon plus the square of perimeter
+    """
+    area = (0.25 * n * s**2) / (math.tan(math.pi / n))
+    perimeter = (n * s)**2
+
+    return round(area + perimeter, 4)
